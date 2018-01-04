@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32.9998867,0 C51.2262983,0 66,14.7757407 66,33.0001133 C66,51.2265249 51.2262983,66 32.9998867,66 C14.7734751,66 0,51.2262983 0,33.0001133 C0,14.7757407 14.7737017,0 32.9998867,0 Z" id="path-1"></path>
+        <filter x="-11.4%" y="-6.8%" width="122.7%" height="122.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.339419158 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-principale" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-42.000000, -432.000000)">
+        <g id="Facebook" transform="translate(46.000000, 433.000000)">
+            <g id="Shape" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M21.7987498,25.5972947 C23.3436368,25.5972947 24.5974997,24.3434318 24.5974997,22.7985449 C24.5974997,21.2536579 23.3436368,20 21.7987498,20 C20.2538629,20 19,21.2538629 19,22.7987498 C19,24.3436368 20.2538629,25.5972947 21.7987498,25.5972947 Z M40.8073356,26.8138573 C38.0944584,26.8138573 35.6670717,27.8045688 33.9451109,29.9913483 L33.9451109,27.3979549 L28.3346996,27.3979549 L28.3346996,46.091128 L33.9451109,46.091128 L33.9451109,35.9823453 C33.9451109,33.8459827 35.9023503,31.7618814 38.3539207,31.7618814 C40.8054911,31.7618814 41.4100834,33.8459827 41.4100834,35.930084 L41.4100834,46.0892835 L47,46.0892835 L47,35.5140425 C46.9997951,28.1683489 43.5220574,26.8138573 40.8073356,26.8138573 Z M19.0299222,46.0909231 L24.6198388,46.0909231 L24.6198388,27.4592339 L19.0299222,27.4592339 L19.0299222,46.0909231 Z" id="Page-1" fill="#0E76A8"></path>
+        </g>
+    </g>
+</svg>

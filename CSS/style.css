@@ -1,0 +1,405 @@
+h1 {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 85px;
+}
+h2 {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+h3 {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30px;
+	color: white;
+	margin: 0px;
+}
+p {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 22px;
+}
+li {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.modal {
+	top: 100px;
+}
+.modal-content {
+	border-radius: 10px;
+	width: 360px;
+}
+
+
+/*@keyframes example {
+
+    from {left:-100%; top:0px;}
+    to  {left:0%; top:0px;}
+}
+
+
+ The element to apply the animation to 
+.animation-blue {
+    width: 100%;
+    height: 24px;
+    position: relative;
+    background-color: #02C7FE;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+}
+
+.animation-green {
+    width: 100%;
+    height: 24px;
+    position: relative;
+    background-color: #9CFA16;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.animation-yellow {
+    width: 100%;
+    height: 24px;
+    position: relative;
+    background-color: #FFDE00;
+    animation-name: example;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+}
+.animation-rose {
+    width: 100%;
+    height: 56px;
+    position: relative;
+    background-color: #FF0066;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+}
+
+.lignes {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: absolute;
+	left: 0px;
+	right:0px;
+	top: 330px;
+	width: 100%;
+
+} */
+
+#header {
+	padding: 10px;
+	border: none;
+}
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-non-transparent {
+    background-color: #FF0066;
+	background-size:cover;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar i {
+	color: white;
+}
+.navbar i:hover{
+	color: #02C7FE;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color:#FFDE00;
+}
+#icon-bar {
+	color: white;
+}
+.linkedin {
+	position: absolute;
+	left: 30px;
+	top: 310px;
+}
+.malt {
+	position: absolute;
+	left: 30px;
+	top: 400px;
+}
+.ayni {
+	position: absolute;
+	left: 30px;
+	top: 490px;
+}
+.share:hover {
+	display: inline-block;
+	transform: scale(1.03);
+}
+.white-writing {
+	color: white;
+}
+
+
+.part1 {
+	background-image: url("../images/background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height: 600px;
+	padding-top: 160px;
+}
+.logo {
+	height: 75px;
+	vertical-align: 0px;
+}
+.logo-xs {
+	height: 45px;
+	vertical-align: 0px;
+}
+.navbar-brand {
+	padding: 0px;
+}
+#title-xs {
+	font-size: 60px;
+	line-height: 65px;
+}
+.info {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+.landingExperience {
+	background-color: #FFDE00;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.experienceCard {
+	background-color: white;
+	box-shadow: 0px 6px 12px #E1C400;
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 64px;
+	margin-bottom: 50px;
+}
+.experiencePicture1 {
+	background-image: url("../images/lundimidi.jpg");
+	background-size: cover;
+	background-position:center;
+	height: 300px;
+	padding-top: 130px;
+}
+.experiencePicture2 {
+	background-image: url("../images/ayni.jpg");
+	background-size: cover;
+	background-position:center;
+	height: 300px;
+	padding-top: 130px;
+}
+.experiencePicture3 {
+	background-image: url("../images/jeanmoulin.jpg");
+	background-size: cover;
+	background-position:center;
+	height: 300px;
+	padding-top: 130px;
+}
+
+
+
+.landingPortfolio {
+	padding-top: 50px;
+}
+.vertical-align {
+	margin-top: 150px;
+}
+.landingPortfolio a {
+	margin : 20px;
+}
+#carousel a {
+	text-decoration: none;
+}
+#carousel a:hover {
+	text-decoration: none;
+}
+.portfolio-webdev {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif);
+	background-size: cover;
+	background-position:center;
+	height: 400px;
+}
+.portfolio-acquisition {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(https://media.giphy.com/media/12Y2iDs1DW03Je/giphy.gif);
+	background-size: cover;
+	background-position:center;
+	height: 400px;
+}
+.portfolio-experience {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(https://media.giphy.com/media/TXvbvcWwnkUjS/giphy.gif);
+	background-size: cover;
+	background-position:center;
+	height: 400px;
+}
+.portfolio-marketing {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(https://media.giphy.com/media/l46C9VsWTWD9CHocg/giphy.gif);
+	background-size: cover;
+	background-position:center;
+	height: 400px;
+}
+.portfolio-event {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(https://media.giphy.com/media/zJNMxcHO7p3Ak/giphy.gif);
+	background-size: cover;
+	background-position:center;
+	height: 400px;
+}
+.portfolio-design {
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(https://media.giphy.com/media/o9ngTPVYW4qo8/giphy.gif);
+	background-size: cover;
+	background-position:center;
+	height: 400px;
+}
+.job {
+	padding-top: 20px;
+	height: 350px;
+}
+.addToCart {
+	background-color: transparent;
+	color: transparent;
+	height: 50px;
+	padding-top: 10px;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30px;
+	margin: 0px;
+}
+.portfolio:hover .addToCart {
+	background-color: #FF0066;
+	color: white;
+}
+.landingStory {
+	background-color: #9CFA16;
+	height: 100vh;
+}
+.story {
+	margin-bottom: 20px;
+}
+.yes {
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30px;
+	color: #FF0066;
+	text-decoration: none;
+	margin-bottom: 300px;
+}
+.yes:hover {
+	text-decoration: none;
+	color: #FF0066;
+}
+.buttonRose {
+	background-color: #FF0066;
+	border-radius: 50px ;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 22px;
+	color: white;
+	text-decoration: none;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 25px;
+	padding-left: 25px;
+	border: none;
+	display: inline-block;
+}
+.buttonRose:hover {
+	color: white;
+	text-decoration: none;
+	transform: scale(1.03);
+}
+.height-center {
+	margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  	transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+.landingUpdates {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.updatesLogo {
+	max-height: 38px;
+	float:left;
+}
+.updatesEmail {
+	height: 38px;
+	width: 180px;
+	padding-left: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #02C7FE;
+	font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+	border: solid 1px black;
+}
+.updatesButton {
+	border-radius: 50px;
+	border: none;
+	background-color: #FF0066;
+	color: white;
+	font-size: 20px;
+	padding-right: 11px;
+	padding-left: 11px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.center-div {
+     margin: 0 auto;
+     width: 335px; 
+     padding: 20px;
+}
+
